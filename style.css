@@ -1,0 +1,26 @@
+h1, h2 {
+    color: teal;
+}
+
+#header-6 {
+    color: red;
+}
+
+.doc {
+    color: slateblue;
+}
+
+.box .doc {
+    color: skyblue;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    border: 1px solid;
+    padding: 20px;
+}
+
+.inside {
+    background-color: springgreen;
+}
