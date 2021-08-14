@@ -59,3 +59,75 @@ console.log(typeof meesage, meesage);
 // // 10. DOM manipulation
 // // 11. Events
 // // 12. Basic Form Validation
+
+// let text = 'a';
+// const input = 10;
+
+// for(let i=1; i <= input; i++){
+//     text = text + '*'
+// }
+
+// print()
+// print('Pan')
+
+// function print(text) {
+//     console.log(text)
+// }
+
+//fizzbuzz
+// '2'== 2 => true
+// '2' === 2 => false
+let number = 2;
+if (number % 3 == 0 && number % 5 == 0) {
+  console.log("FizzBuzz");
+} else if (number % 3 == 0) {
+  console.log("Fizz");
+} else if (number % 5 == 0) {
+  console.log("Buzz");
+} else {
+  console.log(number);
+}
+
+function isDivisibleByThree(input) {
+  return input % 3 == 0;
+}
+
+function isDivisibleByFive(input) {
+  return input % 5 == 0;
+}
+
+let number = 2;
+if (isDivisibleByThree(number) && isDivisibleByFive(number)) {
+  console.log("FizzBuzz");
+} else if (isDivisibleByThree(number)) {
+  console.log("Fizz");
+} else if (isDivisibleByFive(number)) {
+  console.log("Buzz");
+} else {
+  console.log(number);
+}
+
+const fruits = ["apple", "banana"];
+fruits.forEach(function printIndex(value) {
+  console.log(value);
+});
+
+// normal function
+function printIndex(value) {
+  console.log(value);
+}
+
+// arrow function'
+(value) => {
+  console.log(value);
+};
+
+fruits.forEach((value) => {
+  console.log(value);
+});
+
+const people = [
+  { name: "Pan", age: 20 },
+  { name: "Kade", age: 30 },
+];
+people[0];

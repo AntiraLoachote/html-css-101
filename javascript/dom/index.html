@@ -1,0 +1,46 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <!-- 1.4 -->
+    <!-- <div>
+      <span>Hello from HTML</span>
+      <span style="display: none">hidden text</span>
+    </div> -->
+
+    <div id="example">
+      Please remove me! <span id="child" class="blue">Woooow</span>
+    </div>
+
+    <!-- 1.8 -->
+    <div id="data" data-text="anpan is so cute" data-line-color="red">
+      data attribute
+    </div>
+
+    <!-- 1.9 -->
+    <div id="edit-class" class="h1">Custom class</div>
+
+    <!-- 1.10 -->
+    <p id="custom-style">Style</p>
+
+    <!-- 2.1 -->
+    <p id="message">Status...</p>
+    <button onclick="onClick()">Click me baby!</button>
+
+    <hr />
+    <div>
+      Input value:
+      <span id="display-value">...</span>
+    </div>
+    <input value="bababa" onchange="changeText(this.value)" type="text" />
+
+    <hr />
+    <!-- 2.2 -->
+    <button id="showMoney">Show money!</button>
+  </body>
+</html>
